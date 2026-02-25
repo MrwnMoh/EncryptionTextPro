@@ -49,21 +49,6 @@ namespace EncryptionTextP1
             InitializeComponent();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if(shiftKey < 255)
@@ -109,11 +94,7 @@ namespace EncryptionTextP1
             EncryptionText = EncryptTextBox.Text;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void EncryptTextButton_Click(object sender, EventArgs e)
         {
             EncryotedTextBox.Text = EncryptText(EncryptionText);
@@ -132,19 +113,5 @@ namespace EncryptionTextP1
             Clipboard.SetText(EncryotedTextBox.Text);
         }
 
-        private void label2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

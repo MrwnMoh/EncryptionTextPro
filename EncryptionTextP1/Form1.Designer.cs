@@ -98,7 +98,6 @@
             this.MainPanaleStroke.Name = "MainPanaleStroke";
             this.MainPanaleStroke.Size = new System.Drawing.Size(838, 574);
             this.MainPanaleStroke.TabIndex = 2;
-            this.MainPanaleStroke.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // ProgramNameText
             // 
@@ -184,7 +183,6 @@
             this.SettingsTitle.Size = new System.Drawing.Size(83, 26);
             this.SettingsTitle.TabIndex = 2;
             this.SettingsTitle.Text = "Settings";
-            this.SettingsTitle.Click += new System.EventHandler(this.label2_Click);
             // 
             // ShiftKeyText
             // 
@@ -199,7 +197,6 @@
             this.ShiftKeyText.Size = new System.Drawing.Size(118, 26);
             this.ShiftKeyText.TabIndex = 3;
             this.ShiftKeyText.Text = "Security Key";
-            this.ShiftKeyText.Click += new System.EventHandler(this.label3_Click);
             // 
             // EncryptTextBox
             // 
@@ -325,7 +322,6 @@
             this.label1.Size = new System.Drawing.Size(107, 26);
             this.label1.TabIndex = 3;
             this.label1.Text = "Output Text";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // EncryptTextButton
             // 
@@ -388,7 +384,6 @@
             this.RandomPaddingCheckBox.Text = "Random Padding";
             this.RandomPaddingCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.RandomPaddingCheckBox.UseVisualStyleBackColor = true;
-            this.RandomPaddingCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // Form1
             // 
@@ -400,7 +395,6 @@
             this.Controls.Add(this.MainPanaleStroke);
             this.Name = "Form1";
             this.Text = "Encryption Text Pro";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.MainPanel.ResumeLayout(false);
             this.TextBackgroundPanel.ResumeLayout(false);
             this.TextBackgroundPanel.PerformLayout();
